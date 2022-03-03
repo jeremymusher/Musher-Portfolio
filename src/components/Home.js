@@ -1,10 +1,9 @@
 function Home() {
 
-
-return (
-<div>
-    <h1>Home/Body</h1>
-</div>
-)
+  return (
+   <div className="Home">
+     <h1>Home/Body</h1>
+   </div>
+  )
 }
 export default Home
