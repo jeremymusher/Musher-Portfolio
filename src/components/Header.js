@@ -9,7 +9,7 @@ function Header() {
             <a href="/contact"><button>Contact</button></a>
         </nav>
         <div id="hello">
-        <h2 className="intro"> Hi, I am Jeremy Musher, full-stack Software Engineer.</h2>
+        <h2 className="intro">Hi, I am Jeremy Musher, full-stack Software Engineer.</h2>
      </div>
 
      <div id="hello-blurb">

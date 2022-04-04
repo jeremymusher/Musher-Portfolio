@@ -5,10 +5,15 @@
 li {
   list-style: none;
 }
-p, li, h3, h2, h1, button {
+
+p, li, h3, h2, h1, button, a {
   font-family: 'Share Tech Mono', monospace;
 }
 
 h1{
   margin-bottom: 0;
+}
+
+.project {
+
 }
