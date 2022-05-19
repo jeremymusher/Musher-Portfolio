@@ -2,18 +2,66 @@
   text-align: center;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
 li {
   list-style: none;
+}
+
+.intro-sub-text {
+  font-weight: 100;
+}
+
+.navbar {
+ text-align: right;
+}
+
+.navbar a button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 0 15px;
+  cursor: pointer;
 }
 
 p, li, h3, h2, h1, button, a {
   font-family: 'Share Tech Mono', monospace;
 }
 
-h1{
-  margin-bottom: 0;
+.image{
+  width: 300px;
+}
+
+.projects {
+  border: solid 5px red;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+.projects-holder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
 }
 
 .project {
+  border: solid 5px red;
+  width: 350px;
+  margin-top: 10px;
+}
 
+.header h1 {
+  margin: 0;
+}
+
+.header {
+  width: 80vw;
+  margin-left: 10vw;
 }

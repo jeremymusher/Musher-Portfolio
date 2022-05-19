@@ -12,6 +12,9 @@ function Projects() {
       <div className="projects-holder">
 
           <div className="project">
+              <div className="project-title">
+                <h3>Weather Or Not</h3>
+              </div>
             <div className="image-holder"> 
                 <img src={weather} alt="weather-or-not screenshot" className="image"/>
             </div>
@@ -29,6 +32,7 @@ function Projects() {
 
           <div className="project">
             <div className="image-holder">
+                <h3>Employee Finder</h3>
                 <img src={employeeFinder} alt="employee finder screenshot" className="image"/>
             </div>
             <div className="project-blurb">
@@ -47,6 +51,7 @@ function Projects() {
 
           <div className="project">
             <div className="image-holder"> 
+                <h3>DIY Tutorial Site</h3>
                 <img src={diy} alt="diy screenshot" className="image"/>
             </div>
             <div className="project-blurb">
@@ -65,6 +70,7 @@ function Projects() {
 
           <div className="project">
             <div className="image-holder"> 
+                <h3>Flashcard Memory Game</h3>
                 <img src={memoryGame} alt="flashcard memory game screenshot" className="image"/>
             </div>
             <div className="project-blurb">
