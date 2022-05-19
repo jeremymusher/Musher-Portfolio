@@ -25,7 +25,7 @@ li {
 .navbar a button {
   background: none;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bolder;
   margin: 0 15px;
   cursor: pointer;
@@ -35,10 +35,20 @@ p, li, h3, h2, h1, button, a {
   font-family: 'Share Tech Mono', monospace;
 }
 
-.image{
+.image {
   width: 300px;
+  border-radius: 10px;
 }
 
+.blurb-links-holder {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+}
+
+.link-holder {
+  margin-bottom: 20px;
+}
 .projects {
   border: solid 5px red;
   width: 80vw;
@@ -55,6 +65,8 @@ p, li, h3, h2, h1, button, a {
   border: solid 5px red;
   width: 350px;
   margin-top: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .header h1 {
