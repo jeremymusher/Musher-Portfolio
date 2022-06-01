@@ -42,15 +42,18 @@ p, li, h3, h2, h1, button, a {
 
 .blurb-links-holder {
   display: flex;
-  flex-direction: column; 
-  justify-content: space-around;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .link-holder {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
 .projects {
-  border: solid 5px red;
   width: 80vw;
   margin-left: 10vw;
 }
@@ -62,7 +65,7 @@ p, li, h3, h2, h1, button, a {
 }
 
 .project {
-  border: solid 5px red;
+  /* border: solid 5px red; */
   width: 350px;
   margin-top: 10px;
   display: grid;
@@ -76,4 +79,19 @@ p, li, h3, h2, h1, button, a {
 .header {
   width: 80vw;
   margin-left: 10vw;
+}
+
+.link-holder button {
+  background: rgb(123, 199, 80);
+  border: rgb(123, 199, 80) solid 1px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.link-holder button:hover { 
+  background-color: white;
 }
