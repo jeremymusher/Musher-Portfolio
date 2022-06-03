@@ -3,7 +3,7 @@ function About() {
   return (
    <div className="about">
 
-     <h2>About</h2>
+     <h1 className="component-title">About</h1>
 
      <div id="about-blurb">
         <h3 className="aboutme"> Hello, I am Jeremy Musher. I design and build websites and applications. I am a full-stack software engineer, with knowledge of front-end frameworks, database management systems and APIs. See below for a full list of languages, frameworks, and databases that I have used.</h3>

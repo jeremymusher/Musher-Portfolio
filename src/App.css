@@ -28,6 +28,12 @@ li {
   list-style: none;
 }
 
+h3 {
+  font-weight: 100;
+  text-align: left;
+  line-height: 28px;
+}
+
 #intro {
   display: flex;
   margin: 50px 0px 0px 0px;
@@ -46,14 +52,6 @@ li {
 
 #intro h3 {
   width: 80%;
-  font-weight: 100;
-  line-height: 28px;
-}
-
-.aboutme, #aboutme-cont {
-  font-weight: 100;
-  text-align: left;
-  line-height: 28px;
 }
 
 .skills {
@@ -112,7 +110,6 @@ p, li, h3, h2, h1, button, a {
 .projects {
   max-width: 1300px;
   width: 80vw;
-  /* margin-left: 10vw; */
 }
 
 .projects-holder {
@@ -122,7 +119,6 @@ p, li, h3, h2, h1, button, a {
 }
 
 .project {
-  /* border: solid 5px red; */
   border-radius: 5%;
   width: 350px;
   margin-top: 10px;
@@ -145,6 +141,11 @@ p, li, h3, h2, h1, button, a {
   padding-top: 30px;
 }
 
+.contact {
+  text-align: left;
+  margin-left: 2%;
+}
+
 
 .link-holder button, .link-holder-short button, #hello button {
   background: rgb(243 211 94);
@@ -160,6 +161,7 @@ p, li, h3, h2, h1, button, a {
 .link-holder button:hover, .link-holder-short button:hover, #hello button:hover { 
   background-color: white;
 }
+
 
 .contact-link-holder {
   width: 300px;
@@ -178,7 +180,25 @@ p, li, h3, h2, h1, button, a {
 
 .contact-link a {
   align-self: center;
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
   margin-left: 10px;
+  color: #E3655B;
+}
+
+.contact-section {
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+}
+
+.component-title {
+  text-align: left;
+  margin: 50px 0 40px 0;
+}
+
+#project-title {
+  margin-left: 2%;
 }

@@ -6,12 +6,11 @@ function Contact() {
 
     return (
     <div className="contact">
-        <h1>Contact</h1>
+        <h1 className="component-title">Contact</h1>
         <div className="contact-section">
             <div className="contact-blurb">
-                <p>ispum lipsum etc</p>
+                <h3>ispum lipsum etc</h3>
             </div>
-        </div>
         <div className="contact-link-holder">
             <div className="contact-link">
                 <img src={email} alt="email symbol" className="logo" />
@@ -25,6 +24,7 @@ function Contact() {
                 <img src={github} alt="github symbol" className="logo" />
                 <a href="https://github.com/jeremymusher" target="_blank" rel="noreferrer">GitHub</a>
             </div>
+        </div>
         </div>
     </div>
     )
