@@ -19,7 +19,7 @@ function Projects() {
                 <img src={weather} alt="weather-or-not screenshot" className="image"/>
             </div>
             <div className="blurb-links-holder">
-                <div className="link-holder">
+                <div className="link-holder-short">
                     <a href="https://musherweatherornot.herokuapp.com/" target="_blank" rel="noreferrer">
                         <button>Live</button>
                     </a>
@@ -101,7 +101,7 @@ function Projects() {
                 <img src={memoryGame} alt="flashcard memory game screenshot" className="image"/>
             </div>
             <div className="blurb-links-holder">
-                <div className="link-holder">
+                <div className="link-holder-short">
                     <a href="https://musher-memory.herokuapp.com/" target="_blank" rel="noreferrer">
                         <button>Live</button>
                     </a>

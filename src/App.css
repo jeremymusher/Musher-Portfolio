@@ -1,5 +1,19 @@
 .App {
+  margin: 0 auto;
+  padding: 30px 50px;
+  min-height: 100vh;
+  max-width: 1300px;
+  width: 80vw;
   text-align: center;
+  background: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 10px 5px 5px grey, -10px 5px 5px grey;
+}
+
+#root {
+  background: #F4D35E;
+  padding-top: 20px;
 }
 
 html {
@@ -14,8 +28,45 @@ li {
   list-style: none;
 }
 
-.intro-sub-text {
+#intro {
+  display: flex;
+  margin: 50px 0px 0px 0px;
+}
+
+#hello {
+  text-align: left;
+  width: 60%;
+  margin-left: 2%;
+}
+
+#hello h2{
+  width: 60%;
+  line-height: 30px;
+}
+
+#intro h3 {
+  width: 80%;
   font-weight: 100;
+  line-height: 28px;
+}
+
+.aboutme, #aboutme-cont {
+  font-weight: 100;
+  text-align: left;
+  line-height: 28px;
+}
+
+.skills {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.about {
+  margin-left: 2%;
+  text-align: left;
 }
 
 .navbar {
@@ -40,10 +91,15 @@ p, li, h3, h2, h1, button, a {
   border-radius: 10px;
 }
 
+#headshot {
+  height: 240px;
+  border-radius: 50%;
+}
+
 .blurb-links-holder {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -54,8 +110,9 @@ p, li, h3, h2, h1, button, a {
 }
 
 .projects {
+  max-width: 1300px;
   width: 80vw;
-  margin-left: 10vw;
+  /* margin-left: 10vw; */
 }
 
 .projects-holder {
@@ -66,10 +123,16 @@ p, li, h3, h2, h1, button, a {
 
 .project {
   /* border: solid 5px red; */
+  border-radius: 5%;
   width: 350px;
   margin-top: 10px;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  box-shadow: 5px 5px 5px #E3655B, -5px 5px 5px #E3655B;
+
+}
+.project:hover {
+  box-shadow: 10px 5px 5px #E3655B, -10px 5px 5px #E3655B;
 }
 
 .header h1 {
@@ -77,13 +140,15 @@ p, li, h3, h2, h1, button, a {
 }
 
 .header {
+  max-width: 1300px;
   width: 80vw;
-  margin-left: 10vw;
+  padding-top: 30px;
 }
 
-.link-holder button {
-  background: rgb(123, 199, 80);
-  border: rgb(123, 199, 80) solid 1px;
+
+.link-holder button, .link-holder-short button, #hello button {
+  background: rgb(243 211 94);
+  border: rgb(243 211 94) solid 2px;
   padding: 5px 10px;
   margin: 5px;
   cursor: pointer;
@@ -92,6 +157,28 @@ p, li, h3, h2, h1, button, a {
   transition-duration: 0.4s;
 }
 
-.link-holder button:hover { 
+.link-holder button:hover, .link-holder-short button:hover, #hello button:hover { 
   background-color: white;
+}
+
+.contact-link-holder {
+  width: 300px;
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-link {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  align-content: center;
+}
+
+.contact-link a {
+  align-self: center;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 10px;
 }
