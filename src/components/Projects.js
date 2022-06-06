@@ -1,4 +1,3 @@
-import react from "react";
 import employeeFinder from "../media/employee-finder.png"
 import diy from "../media/diy.png"
 import weather from "../media/weather-or-not.png"

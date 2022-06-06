@@ -5,9 +5,9 @@ function Header() {
     return (
     <div className="header">
         <nav className="navbar">
-            <a href="/aboutme"><button>About</button></a>
-            <a href="/"><button>Projects</button></a>
-            <a href="/contact"><button>Contact</button></a>
+            <a href="/Musher-Portfolio/#/aboutme"><button>About</button></a>
+            <a href="/Musher-Portfolio/#/"><button>Projects</button></a>
+            <a href="/Musher-Portfolio/#/contact"><button>Contact</button></a>
         </nav>
         <div id="intro">
             <div id="hello">
