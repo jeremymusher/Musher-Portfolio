@@ -6,10 +6,10 @@ function Contact() {
 
     return (
     <div className="contact">
-        <h1 className="component-title">Contact</h1>
+        <h1 className="component-title" id="contact-title">Contact</h1>
         <div className="contact-section">
             <div className="contact-blurb">
-                <h3>ispum lipsum etc</h3>
+                <h3>I'm currently located in Boulder, CO. I am open to remote work as well as poossible relocation. Feel free to reach out with any propective projects or just to say hello. Thank you for stopping by to check out my portfolio.</h3>
             </div>
         <div className="contact-link-holder">
             <div className="contact-link">
