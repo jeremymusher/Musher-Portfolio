@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Musher-Portfolio/static/css/main.aee02203.css",
-    "main.js": "/Musher-Portfolio/static/js/main.776db328.js",
-    "static/js/787.0bd244a6.chunk.js": "/Musher-Portfolio/static/js/787.0bd244a6.chunk.js",
-    "static/media/memory-game.png": "/Musher-Portfolio/static/media/memory-game.408852d8348d66b1aafe.png",
-    "static/media/diy.png": "/Musher-Portfolio/static/media/diy.17e0b53c2703b533a9ea.png",
-    "static/media/weather-or-not.png": "/Musher-Portfolio/static/media/weather-or-not.41c42b27a8207222b1e6.png",
-    "static/media/employee-finder.png": "/Musher-Portfolio/static/media/employee-finder.f27c63c454d6124402a0.png",
-    "static/media/headshot.jpeg": "/Musher-Portfolio/static/media/headshot.8456461ea2c6b36b2613.jpeg",
-    "index.html": "/Musher-Portfolio/index.html",
-    "main.aee02203.css.map": "/Musher-Portfolio/static/css/main.aee02203.css.map",
-    "main.776db328.js.map": "/Musher-Portfolio/static/js/main.776db328.js.map",
-    "787.0bd244a6.chunk.js.map": "/Musher-Portfolio/static/js/787.0bd244a6.chunk.js.map"
+    "main.css": "/static/css/main.aee02203.css",
+    "main.js": "/static/js/main.ad52f27e.js",
+    "static/js/787.0bd244a6.chunk.js": "/static/js/787.0bd244a6.chunk.js",
+    "static/media/memory-game.png": "/static/media/memory-game.408852d8348d66b1aafe.png",
+    "static/media/diy.png": "/static/media/diy.17e0b53c2703b533a9ea.png",
+    "static/media/weather-or-not.png": "/static/media/weather-or-not.41c42b27a8207222b1e6.png",
+    "static/media/employee-finder.png": "/static/media/employee-finder.f27c63c454d6124402a0.png",
+    "static/media/headshot.jpeg": "/static/media/headshot.8456461ea2c6b36b2613.jpeg",
+    "index.html": "/index.html",
+    "main.aee02203.css.map": "/static/css/main.aee02203.css.map",
+    "main.ad52f27e.js.map": "/static/js/main.ad52f27e.js.map",
+    "787.0bd244a6.chunk.js.map": "/static/js/787.0bd244a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aee02203.css",
-    "static/js/main.776db328.js"
+    "static/js/main.ad52f27e.js"
   ]
 }
